@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Gestão Acadêmica</title>
+</head>
+ 
+<body>
+    <h2 style="background-color:darkorange">Sistema de Gestão Acadêmica</h2>
+    <h4>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h4>
+ 
+    <form>
+        Login: <input type="text" name="login"><br><br>
+        Senha: <input type="password" name="senha"><br><br>
+ 
+        Status:
+        <select>
+            <option>Ativo</option>
+            <option selected>Inativo</option>
+        </select><br><br>
+ 
+        Tipo:
+        <input type="radio" name="tipo"> Técnico
+        <input type="radio" name="tipo"> Professor
+        <input type="radio" name="tipo"> Aluno
+        <br><br>
+ 
+        Data Criação: <input type="date" name="data"><br><br>
+ 
+        Perfil:
+        <input type="radio" name="perfil"> Convidado
+        <input type="radio" name="perfil"> Administrador
+        <br><br>
+ 
+        Observações:<br>
+        <textarea rows="4" cols="40"></textarea><br><br>
+ 
+        Módulos:<br>
+        <input type="checkbox"> Compras
+        <input type="checkbox"> Biblioteca
+        <input type="checkbox"> Acadêmico<br>
+        <input type="checkbox"> Documentação
+        <input type="checkbox"> Recursos Humanos
+        <br><br>
+ 
+        <input style="border-radius: 50;" type="submit" value="Cadastrar">
+        <input style="border-radius: 50;" type="reset" value="Excluir">
+    </form>
+    <br>
+   
+</body>
+ 
+</html>
+ 
